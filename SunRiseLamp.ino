@@ -1,4 +1,4 @@
-// created by Jean-Pierre Figaredo
+// Created by Jean-Pierre Figaredo
 
 #include "application.h"
 
@@ -17,6 +17,8 @@ SYSTEM_THREAD(ENABLED);
 #define PIXEL_BRIGHTNESS 70
 
 #define SUN_RISE_HOUR 6
+
+// 300 sec = 5 min example: 60*5=300 if 30 min 60*30 = 1800
 #define Sun_RISE_LENGTH_IN_SEC 300
 
 
@@ -325,34 +327,20 @@ const char * HexArray[] = {
 "65C5D1",
 "65C5D1",
 "65C5D1",
-"c42c00",
 };
 
 
 
-
-
-
-// Prototypes for local build, ok to leave in for Build IDE
-void rainbow(uint8_t wait);
-uint32_t Wheel(byte WheelPos);
 
 void setup()
 {
   strip.begin();
   strip.show(); // Initialize all pixels to 'off'
   
+  //comment this out if you don't want your sunrise immediately
+   sunRise();
   
-   //strip.setPixelColor(0,255,0,0);
- 
- //Serial1.begin(9100);
- 
- sunRise();
-  
- 
    
-   
-   //Serial.print(sizeof(HexArray));
 }
 void loop()
 {
@@ -368,7 +356,7 @@ void loop()
 void sunRise(){
     
     //loop through all the colors in the array
-    for(int i=0; i<301; i++ ){
+    for(int i=0; i<=299; i++ ){
     
     //This will make the sun rise 
      int time = (Sun_RISE_LENGTH_IN_SEC / 300)*1000;
@@ -392,7 +380,7 @@ void sunRise(){
     }
     strip.show();
      
-     Serial.print(i);
+    
      
     }
      
