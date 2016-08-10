@@ -58,10 +58,10 @@ In the Processing IDE consol all your hex are waiting for you to copy them to th
 
 ## TODO 
 
- Ios app
- pcb
- lamp frame
- ...
+ 1. Ios app
+ 2. pcb
+ 3. lamp frame
+ 4. ...
  
 
 
