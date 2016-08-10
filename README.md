@@ -22,8 +22,19 @@ Now go to the Library tab. Search for the neopixel library and add it to the new
 
 ![giphy-5](https://cloud.githubusercontent.com/assets/13212319/17560024/689d8756-5eee-11e6-9831-14239eefb488.gif)
 
-Now if you have a WS2812b/neopixel strip connected to you photon you can flash the code
+ If you have a WS2812b/neopixel strip connected to you photon you can flash the code
 
 
+
+## hardware
+
+The neopixel are 5v logic but the photon is 3v logic. A solution for this problom woud be a Logic Level Converter  from 3v to 5v, but if you're like me then you want to start now with what you have on hand Breadboard, strip and photon. The strips do work on 3v it's really not recomended, but they do work. Just don't try to turn on 60 led. It worked for me at 14 led with 70%  brightness. 
+
+This is very simple connection. Again this is NOT the recommended way of doing it but it works. 
+![breadboad](https://cloud.githubusercontent.com/assets/13212319/17562271/1a82aa9c-5ef8-11e6-8340-d7e90686b70f.jpg)
+
+now you can flash the photon.
+
+![giphy-6](https://cloud.githubusercontent.com/assets/13212319/17564354/2f8e4dfc-5f01-11e6-9fc7-504189bbd58d.gif)
 
 
