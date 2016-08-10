@@ -23,6 +23,9 @@ Now go to the Library tab. Search for the neopixel library and add it to the new
 ![giphy-5](https://cloud.githubusercontent.com/assets/13212319/17560024/689d8756-5eee-11e6-9831-14239eefb488.gif)
 
  If you have a WS2812b/neopixel strip connected to you photon you can flash the code
+ 
+ 
+
 
 
 
@@ -33,8 +36,22 @@ The neopixel are 5v logic but the photon is 3v logic. A solution for this problo
 This is very simple connection. Again this is NOT the recommended way of doing it but it works. 
 ![breadboad](https://cloud.githubusercontent.com/assets/13212319/17562271/1a82aa9c-5ef8-11e6-8340-d7e90686b70f.jpg)
 
-now you can flash the photon.
+Now you can flash the photon.
 
 ![giphy-6](https://cloud.githubusercontent.com/assets/13212319/17564354/2f8e4dfc-5f01-11e6-9fc7-504189bbd58d.gif)
 
+## Generate SunRise Hex
 
+If you wan't to create your own Sun rise gradient you are coverd I creadted this litte Processing program that will take an image and give you an array of hex vaules that you can copy and past directly to the web IDE.
+
+First if you don't have Processing you need to to download the software (it's a grate programe to do image/video processing with the IDE is very similer to the arduion one) 
+
+https://processing.org
+
+Then in the GenerateSunRiseHex folder open the GenerateSunRiseHex.pde file and run the program. It will ask you for a image after that just click on "generate Hex" 
+
+![giphy-7](https://cloud.githubusercontent.com/assets/13212319/17565992/9ff5d03c-5f07-11e6-8c4a-3a7f8ebba7a8.gif)
+
+In the Processing IDE consol all your hex are waiting for you to copy them to the we IDE.
+
+![giphy-8](https://cloud.githubusercontent.com/assets/13212319/17569569/cbc4d8ac-5f16-11e6-9814-3e20d45e3520.gif)
