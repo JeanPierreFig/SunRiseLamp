@@ -55,3 +55,15 @@ Then in the GenerateSunRiseHex folder open the GenerateSunRiseHex.pde file and r
 In the Processing IDE consol all your hex are waiting for you to copy them to the we IDE.
 
 ![giphy-8](https://cloud.githubusercontent.com/assets/13212319/17569569/cbc4d8ac-5f16-11e6-9814-3e20d45e3520.gif)
+
+## TODO 
+
+ Ios app
+ pcb
+ lamp frame
+ ...
+ 
+
+
+
+
