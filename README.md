@@ -24,6 +24,12 @@ Now go to the Library tab. Search for the neopixel library and add it to the new
 
  If you have a WS2812b/neopixel strip connected to you photon you can flash the code
  
+ if you want to change the parameters it's super simple. just change the value of does.
+ 
+`#define PIXEL_PIN D0`
+`#define PIXEL_COUNT 14`
+`#define PIXEL_TYPE WS2812`
+`#define PIXEL_BRIGHTNESS 70`
  
 
 
