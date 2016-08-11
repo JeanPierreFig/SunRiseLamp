@@ -345,7 +345,7 @@ void setup()
 void loop()
 {
     
-  if(Time.minute() == SUN_RISE_HOUR){
+  if(Time.hour() == SUN_RISE_HOUR){
       
       //Make the led start the sequence
        sunRise();
