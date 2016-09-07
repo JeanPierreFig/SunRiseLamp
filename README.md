@@ -16,7 +16,12 @@ After that open the SunRiseLamp.ino and copy the code to the new project in the 
 
 ![giphy-4](https://cloud.githubusercontent.com/assets/13212319/17559402/1aeb3ece-5eec-11e6-87eb-8d5da6d47a61.gif)
 
-Just one more step.
+<img width="463" alt="screen shot 2016-09-07 at 1 20 49 am" src="https://cloud.githubusercontent.com/assets/13212319/18300732/fa4d5364-7499-11e6-9370-8ec25e748857.png">
+
+Now create a new file on the Web IDE and add this name SunRiseLamp.h and SunRiseLamp.cpp 
+
+copy the code from their corresponding files and past them in the new document you created in the web IDE 
+
 
 Now go to the Library tab. Search for the neopixel library and add it to the new project. 
 
