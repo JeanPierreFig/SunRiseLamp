@@ -41,7 +41,7 @@ void draw() {
       c = img.get(20, i);
       fill(c);
       rect(width/2.1,height-200, 50, 50);
-      println( String.format("\"%s\",",hex(c, 6)));
+      println( String.format("0x%s,",hex(c, 6)));
      
     
       if(img.height == i){
