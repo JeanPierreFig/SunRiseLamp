@@ -1,6 +1,7 @@
 
-![sunriseimage]
-(https://cloud.githubusercontent.com/assets/13212319/17459474/cb04972a-5c07-11e6-8d16-a966f8d0235e.png)
+
+
+  <center>![sunriselogo](https://cloud.githubusercontent.com/assets/13212319/18433365/1abbac9e-78b5-11e6-8289-19ff168eb87d.jpg?style=centerme)</center>
 
 # SunRiseLamp
 This projects goal is to create a Sun Rise lamp. So you can wake up more naturally.
