@@ -63,7 +63,7 @@ Then in the GenerateSunRiseHex folder open the GenerateSunRiseHex.pde file and r
 
 ![giphy-7](https://cloud.githubusercontent.com/assets/13212319/17565992/9ff5d03c-5f07-11e6-8c4a-3a7f8ebba7a8.gif)
 
-In the Processing IDE consol all your hex are waiting for you to copy them to the we IDE.
+In the Processing IDE console all your hex are waiting for you to copy them to the web IDE.
 
 ![giphy-8](https://cloud.githubusercontent.com/assets/13212319/17569569/cbc4d8ac-5f16-11e6-9814-3e20d45e3520.gif)
 
