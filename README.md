@@ -2,13 +2,11 @@
 <img src=https://cloud.githubusercontent.com/assets/13212319/18433365/1abbac9e-78b5-11e6-8289-19ff168eb87d.jpg?style=centerme
 </p>
 
-#I would like to thanks.
- BulldogLowell over at community.particle.io 
-
-
-
 # SunRiseLamp
 The goal of this project is to create a Sun Rise lamp so you can wake up more naturally.
+
+#I would like to thank.
+ BulldogLowell over at community.particle.io 
 
 ## Getting started 
 
