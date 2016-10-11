@@ -5,9 +5,6 @@
 #include "neopixel/neopixel.h"
 #include "math.h"
 
-
-
-
 class SunRiseLamp {
 public:
     SunRiseLamp() {};
@@ -15,25 +12,17 @@ public:
     bool update();
     void rise();
     void set();
-    void kelvinToRGB(int kelvin);
-    int  clamp(int x,int min,int max);
-    
+    uint32_t kelvinToRGB(int kelvin);
+    int clamp(int x);
+
 private:
     Adafruit_NeoPixel* pixelStringPtr = NULL;
     int colorInterval;
-    int lastUpdate;
-    int colorIndex = 0;
+    unsigned long lastUpdate;
     int direction = 0;
-    int _pixelCount;
-    int _pixelPin;
-    int _pixelType;
     int sunRiseTemp;
-    int r;
-    int g;
-    int b;
     int brightness;
-    
-    
 };
 
 #endif
+
