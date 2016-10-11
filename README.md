@@ -58,7 +58,7 @@ Now you can flash the photon.
 
 
 ## Generate SunRise Hex
-The SunRise Hex program is not uses anymore we are using kelving temp and converting it to rgb. It is way more precise and creates a realistic light output.
+The SunRise Hex program is not uses anymore we are using color temperature and converting it to rgb. It is way more precise and creates a more realistic light output.
 
 But if you want to check out the program you can it's great for grabbing lots of hex values from an image.
 
