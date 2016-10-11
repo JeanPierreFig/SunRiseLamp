@@ -54,21 +54,14 @@ Now you can flash the photon.
 
 ![giphy-6](https://cloud.githubusercontent.com/assets/13212319/17564354/2f8e4dfc-5f01-11e6-9fc7-504189bbd58d.gif)
 
+
+
+
 ## Generate SunRise Hex
+The SunRise Hex program is not uses anymore we are using kelving temp and converting it to rgb. It is way more precise and creates a realistic light output.
 
-If you want to create your own Sunrise gradient, I created a little Processing program that will take an image and give you an array of hex vaules that you can copy and paste directly to the Web IDE.
+But if you want to check out the program you can it's great for grabbing lots of hex values from an image.
 
-First if you don't have Processing, you need to to download the software (it's a great program to do image/video processing with the IDE, and it's very similar to the Arduino IDE).
-
-https://processing.org
-
-Then in the GenerateSunRiseHex folder open the GenerateSunRiseHex.pde file and run the program. It will ask you for a image after that just click on "generate Hex" 
-
-![giphy-7](https://cloud.githubusercontent.com/assets/13212319/17565992/9ff5d03c-5f07-11e6-8c4a-3a7f8ebba7a8.gif)
-
-In the Processing IDE console all your hex are waiting for you to copy them to the web IDE.
-
-![giphy-8](https://cloud.githubusercontent.com/assets/13212319/17569569/cbc4d8ac-5f16-11e6-9814-3e20d45e3520.gif)
 
 ## TODO 
 
