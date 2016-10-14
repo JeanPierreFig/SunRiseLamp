@@ -60,7 +60,7 @@ void SunRiseLamp::set() {
     pixelStringPtr->setBrightness(brightness);
 }
 
-//Convert kelvien to RGB
+// Convert kelvin to RGB
 uint32_t SunRiseLamp::kelvinToRGB(int kelvin) {
     if(kelvin <= 2000)
         return 0;
@@ -78,7 +78,7 @@ uint32_t SunRiseLamp::kelvinToRGB(int kelvin) {
         blue = 255;
     }
 
-    return ((uint32_t)clamp(red) << 16) | ((uint32_t)clamp(green) <<  8) | clamp(blue);
+    return Adafruit_NeoPixel::Color(red, green, blue);
 }
 
 int SunRiseLamp::clamp(int n) {
