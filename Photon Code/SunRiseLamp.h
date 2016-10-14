@@ -7,17 +7,19 @@
 
 class SunRiseLamp {
 public:
-    SunRiseLamp() {};
-    void begin(int totalTime, int pixelCount, int pixelPin, int pixelType);	// total time for sunrise
+    SunRiseLamp(int totalTime, int pixelCount, int pixelPin, int pixelType);
+    void begin();
     bool update();
     void rise();
+    void rise(int totalTime); // total time for sunrise
     void set();
     uint32_t kelvinToRGB(int kelvin);
     int clamp(int x);
+    void colorAll(uint32_t c);
 
 private:
-    Adafruit_NeoPixel* pixelStringPtr = NULL;
-    int colorInterval;
+    Adafruit_NeoPixel* neoPixelPtr = NULL;
+    unsigned int  colorInterval;
     unsigned long lastUpdate;
     int direction = 0;
     int sunRiseTemp;
