@@ -5,35 +5,26 @@
 #include "neopixel/neopixel.h"
 #include "math.h"
 
-
-
-
 class SunRiseLamp {
 public:
-    SunRiseLamp() {};
-    void begin(int totalTime, int pixelCount, int pixelPin, int pixelType);	// total time for sunrise
+    SunRiseLamp(int totalTime, int pixelCount, int pixelPin, int pixelType);
+    void begin();
     bool update();
     void rise();
+    void rise(int totalTime); // total time for sunrise
     void set();
-    void kelvinToRGB(int kelvin);
-    int  clamp(int x,int min,int max);
-    
+    uint32_t kelvinToRGB(int kelvin);
+    int clamp(int x);
+    void colorAll(uint32_t c);
+
 private:
-    Adafruit_NeoPixel* pixelStringPtr = NULL;
-    int colorInterval;
-    int lastUpdate;
-    int colorIndex = 0;
+    Adafruit_NeoPixel* neoPixelPtr = NULL;
+    unsigned int  colorInterval;
+    unsigned long lastUpdate;
     int direction = 0;
-    int _pixelCount;
-    int _pixelPin;
-    int _pixelType;
     int sunRiseTemp;
-    int r;
-    int g;
-    int b;
     int brightness;
-    
-    
 };
 
 #endif
+
